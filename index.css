@@ -1,0 +1,33 @@
+.ring{
+    width: 200px;
+    height: 200px;
+    border: 0px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 5s;
+
+
+
+}
+
+.ring:nth-child(1){
+    border-bottom-width: 8px;
+    border-color: rgb(225, 225, 225);
+    animation: rotate1 2s linear infinite;
+    transform: rotate(65deg);
+
+}
+.ring:nth-child(2){
+    border-top-width: 8px;
+    border-color: rgb(115, 225, 225);
+    transform: rotate(69deg);
+    animation: rotate2 2s linear infinite;
+}
+.ring:nth-child(3){
+    border-right-width: 8px;
+    border-color: rgb(161, 10, 10);
+    animation: rotate2 2s linear infinite;
+    transform: rotate(65deg);
+
+}
+
